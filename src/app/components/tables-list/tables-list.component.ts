@@ -1,6 +1,18 @@
 import { Component, Input } from '@angular/core';
 import { Table } from 'src/app/models/types.model';
 
+/**
+ * @Component TablesListComponent
+ * @selector app-tables-list
+ * 
+ * Tables List component
+ *  - present a sublist of clickable table names
+ *  - when clicked table the table detail view will be presented with further info
+ * 
+ * @Input tables: tables to show
+ * @Input tableCLick: a prop from root component to update selectedTable state
+ */
+
 @Component({
   selector: 'app-tables-list',
   templateUrl: './tables-list.component.html',

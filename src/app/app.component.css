@@ -1,11 +1,9 @@
 
 .app-container {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    /* font-size: 240px; */
     margin-top: 5vh;
     padding: 2vh 0% 0% 10vi;
     display: flex;
-    /* width: 90vi; */
     min-width: 0;
     height: 95vh;
     overflow: auto;
@@ -42,7 +40,6 @@
   
  .app-container::-webkit-scrollbar-track {
     border-radius: 1px 7px 7px 1px;  
-    /* position: relative; */
   }
   
  .app-container::-webkit-scrollbar-thumb {
@@ -50,37 +47,21 @@
     border-radius: 20px;
   }
   
-  
   /* Styles for the body container */
   .body-container{
     display: flex;
     padding: 2vh 5vi 2vh 1vi;
     min-width: 0;
-    /* padding: 2%; */
-    /* margin: 2% 0 2% 0; */
-    /* overflow-y: auto;
-    scrollbar-color: #6B7A8F; */
-    /* scrollbar-width: 20px; */
-    /* height: 100vh; */
-    /* width: 88vi; */
-    /* text-overflow: ellipsis; */
-    /* white-space: nowrap; */
-    /* width: 100%; */
   }
 
   .files-list-wrapper {
     margin-right: 5vh;
     display: flex;
     padding: 2%;
-    /* width: max-content; */
-    /* height: max-content; */
   }
 
   .table-details-wrapper {
     margin-left: 5vh;
     display: flex;
     padding: 2%;
-    /* width: max-content; */
-    /* word-wrap: break-word;
-    text-overflow: ellipsis; */
   }
