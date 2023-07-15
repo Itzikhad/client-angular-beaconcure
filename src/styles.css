@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+/* Styles for the App container */
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-size: 24px;
+  }
+  
+  /* *::-webkit-scrollbar {
+    background-color: transparent;
+  } */
+  
+  /* code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  } */
+  
+html, body { height: 100% }
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

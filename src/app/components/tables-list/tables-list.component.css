@@ -1,0 +1,15 @@
+/* 
+  table-list.component.css
+
+  Styles for the table-list component.
+*/
+
+mat-list-item div[matLine] h5 {
+    color: aliceblue;
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    font-family: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }

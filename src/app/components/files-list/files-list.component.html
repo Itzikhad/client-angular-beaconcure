@@ -1,0 +1,12 @@
+<div class="files-list-container" *ngIf="files">
+    <mat-accordion>
+        <mat-expansion-panel *ngFor="let file of files; let i = index">
+            <mat-expansion-panel-header>
+                <mat-panel-title class="mat-expansison-header">
+                    {{ file.title }}.json
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <app-tables-list [tables]="file.tables" [tableClick]="tableClick"></app-tables-list>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

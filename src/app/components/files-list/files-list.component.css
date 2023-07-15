@@ -1,0 +1,40 @@
+/* 
+  files-list.component.css
+
+  Styles for the files-list component.
+*/
+
+/* Styles for the file accordion */
+.mat-accordion {
+    border-radius: 10px;
+    margin: 2%;
+    background-color: #92b7c4;
+    width: 20vi;
+}
+
+/* Styles for the files list container */
+.files-list-container {
+    padding: 7%;
+    margin: 1%;
+    height: max-content;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #2e3830;
+    background-color: #92b7c4;
+    display: flex;
+    justify-content: center;
+}
+
+.mat-expansison-header {
+    color: #2e3830;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    font-size: 1.3rem;
+    
+}
+
+.mat-expansion-panel {
+    border: 1px solid black;
+    background-color: #92b7c4;
+}
+

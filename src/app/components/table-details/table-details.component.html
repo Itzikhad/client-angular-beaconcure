@@ -1,0 +1,9 @@
+<div class="table-details-container" *ngIf="selectedTable">
+    <div class="table-details-info-container" >
+        <h2>{{ selectedTable.title }}</h2>
+        <p>Rows: {{ selectedTable.rows }}</p>
+        <p>Columns: {{ selectedTable.columns }}</p>
+        <p>{{ selectedTable.notes }}</p>
+    </div>
+    <button class="hide-table-details-button" (click)="onHideClick()">Close</button>
+</div>

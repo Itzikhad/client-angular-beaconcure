@@ -1,0 +1,7 @@
+<mat-nav-list>
+    <mat-list-item *ngFor="let table of tables; let i = index" (click)="onTableClick(table)">
+        <div matLine>
+            <h5>{{ table?.title }}</h5>
+        </div>
+    </mat-list-item>
+</mat-nav-list>
